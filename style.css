@@ -72,7 +72,6 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 70px;
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(images/Vectorrr.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -127,7 +126,6 @@ button {
 }
 
 .place {
-    margin-top: 70px;
     width: 100%;
     padding: 80px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.233) 0%, rgba(255, 0, 0, 0.075) 100%);
@@ -149,8 +147,11 @@ button {
     margin-top: 30px;
 }
 
-.coming-soon {
+.margin-top{
     margin-top: 100px;
+}
+
+.coming-soon {
     display: flex;
     align-items: center;
     justify-content: space-around;
