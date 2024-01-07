@@ -1,13 +1,16 @@
 /* google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Open Sans', sans-serif;
 }
 
+/* header section css start  */
 header {
     margin: 50px 100px;
     display: flex;
@@ -39,7 +42,9 @@ header {
     font-weight: 900;
     line-height: 95px;
 }
+/* header section css end  */
 
+/* section start css  */
 section {
     margin: 70px 100px;
 }
@@ -68,6 +73,7 @@ section {
     padding: 20px 0;
 }
 
+/* midnight-party section  */
 .midnight-party {
     display: flex;
     align-items: center;
@@ -125,6 +131,8 @@ button {
     margin-right: 30px;
 }
 
+
+/* place section css  */
 .place {
     width: 100%;
     padding: 80px;
@@ -147,10 +155,11 @@ button {
     margin-top: 30px;
 }
 
-.margin-top{
+.margin-top {
     margin-top: 100px;
 }
 
+/* coming-soon offer seciton css */
 .coming-soon {
     display: flex;
     align-items: center;
@@ -181,6 +190,7 @@ button {
     font-weight: 900;
     padding: 15px 0;
 }
+
 .coming-soon .best-offer h1 {
     color: #F00;
     font-size: 50px;
@@ -195,6 +205,215 @@ button {
     font-weight: 400;
     line-height: 32px;
 }
-.coming-soon .best-offer .img-top{
+
+.coming-soon .best-offer .img-top {
     margin-top: 15px;
 }
+
+
+/* holidays-sale seciton css  */
+
+.holidays-sale .content {
+    text-align: center;
+    padding: 0 100px;
+}
+
+.holidays-sale .content h4 {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holidays-sale .content h2 {
+    color: #070211;
+    font-size: 60px;
+    font-weight: 900;
+    padding: 15px 0;
+}
+
+.holidays-sale .content h2 span {
+    color: #F00;
+}
+
+.holidays-sale .content p {
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.display-discount {
+    margin: 25px 0;
+}
+
+.rec-grp75 {
+    position: relative;
+}
+
+.Rectangle1 {
+    float: right;
+}
+
+.Group75 {
+    position: absolute;
+    right: 278px;
+    top: 50px;
+}
+
+.rec-grp44 {
+    position: relative;
+}
+
+.Rectangle2 {
+    width: 100%;
+}
+
+.Group44 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/* portfolio-section section css  */
+.portfolio-section .heading {
+    width: 70%;
+}
+
+.portfolio-section .heading h4 {
+    color: #F00;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.portfolio-section .heading h2 {
+    color: #070211;
+    font-size: 35px;
+    font-weight: 900;
+    padding: 10px 0;
+}
+
+.portfolio-section .heading p {
+    color: #07021199;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.all-portfolio {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.all-portfolio img {
+    width: 390px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.all-portfolio img:hover {
+    outline: 2px solid #070211;
+}
+
+/* newsletter section start css */
+.newsletter{
+    padding: 0 200px;
+    text-align: center;
+}
+.newsletter h2{
+    padding: 25px;
+    font-size: 48px;
+    font-weight: 900;
+}
+p{
+    font-size: 18px;
+}
+.newsletter p{
+    color: #07021199;
+    font-weight: 400;
+}
+
+.input{
+    margin: 25px auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 4px #07021144;
+    border-radius: 30px;
+}
+.input input{
+    flex: 1;
+    background: transparent;
+    font-size: 18px;
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    border-radius: 30px 0 0 30px;
+}
+.btn{
+    border-radius: 0 30px 30px 0;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: rgb(170, 17, 17);
+}
+
+
+/* footer section start css  */
+footer {
+    background-color: #070211;
+    padding: 100px 150px;
+    color: #FFF;
+}
+
+footer .first-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .first-foot img{
+    margin-right: 10px;
+}
+
+footer .first-foot p {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 5px;
+}
+.cursor{
+    cursor: pointer;
+}
+
+footer .second-foot {
+    text-align: center;
+    margin: 50px 0;
+}
+
+hr{
+    margin: 50px 0;
+    border: 1px solid #302f30;
+}
+
+
+footer .second-foot img {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+footer .third-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .third-foot p {
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* the code ends  */
